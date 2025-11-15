@@ -1,0 +1,92 @@
+# -----------------------------
+# Python cache & bytecode
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyd
+*.pkl
+*.pth
+
+# -----------------------------
+# Virtual environments
+# -----------------------------
+venv/
+env/
+.venv/
+
+# -----------------------------
+# OS / Editor files
+# -----------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+
+# PyCharm
+.idea/
+
+# -----------------------------
+# Build & logs
+# -----------------------------
+*.log
+*.out
+*.err
+
+# -----------------------------
+# Model checkpoints
+# -----------------------------
+checkpoints/
+checkpoints_fast/
+checkpoints_research/
+*.ckpt
+*.tar
+
+# PyTorch artifacts
+*.pt
+*.pth
+
+# -----------------------------
+# Dataset (too large for git)
+# -----------------------------
+dataset/
+processed/
+tmp_processed/
+data/
+*.zip
+*.7z
+
+# -----------------------------
+# Output Images & Plots
+# -----------------------------
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+
+# Allow paper figures if needed
+!paper_figures/
+
+# -----------------------------
+# Notebooks checkpoints
+# -----------------------------
+.ipynb_checkpoints/
+
+# -----------------------------
+# CLI cache
+# -----------------------------
+.cache/
+*.swp
+*.swo
+*.bak
+
+# -----------------------------
+# Project-specific excludes
+# -----------------------------
+best_fast_model.pth
+test_image.png
+outputs/
